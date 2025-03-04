@@ -149,3 +149,5 @@ def format_pollutants(iaqi):
     
     return pollutants
 
+if __name__ == '__main__':
+    app.run(debug=True)
