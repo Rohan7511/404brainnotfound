@@ -56,8 +56,6 @@ export default function AppAppBar() {
               <Button variant="text" color="info" size="small">Home</Button>
               <Button variant="text" color="info" size="small">Live Air Quality</Button>
               <Button variant="text" color="info" size="small">Map View</Button>
-              <Button variant="text" color="info" size="small">Health Alerts</Button>
-              <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>Forecast</Button>
               <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>About</Button>
             </Box>
           </Box>
@@ -103,7 +101,6 @@ export default function AppAppBar() {
                 <MenuItem>Live Air Quality</MenuItem>
                 <MenuItem>Map View</MenuItem>
                 <MenuItem>Health Alerts</MenuItem>
-                <MenuItem>Forecast</MenuItem>
                 <MenuItem>About</MenuItem>
                 <Divider sx={{ my: 3 }} />
                 <MenuItem>
