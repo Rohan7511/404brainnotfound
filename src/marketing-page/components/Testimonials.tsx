@@ -8,9 +8,9 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid2';
 import { useTheme } from '@mui/system';
-import B from '/src/B.png';
-import N from '/src/N.png';
-import F from '/src/F.png';  
+import B from '../src/B.png';
+import N from '../src/N.png';
+import F from '../src/F.png';  
 
 
 
