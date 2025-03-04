@@ -21,7 +21,7 @@ Air pollution is a growing public health concern, especially in urban areas. Pol
 
 Our project aims to develop a **responsive web app** that:
 
-- 📍 **Displays real-time pollutant levels** (PM2.5, PM10, NO₂, etc.) on an **interactive map** using public APIs like **OpenAQ** or **AirVisual**.  
+- 📍 **Displays real-time pollutant levels** (PM2.5, PM10, NO₂, etc.) on an **interactive map** using public APIs like **WAQI**.  
 - 📲 **Ensures mobile responsiveness** for easy access, allowing users to check air quality on the go.  
 
 The goal is to **bridge the gap between raw data and public action**, helping people make informed health decisions.
@@ -31,6 +31,7 @@ The goal is to **bridge the gap between raw data and public action**, helping pe
 ### Frontend
 - **React.js**
 - **React Leaflet** for map integration
+- **MUI**
 
 ### Backend
 - **Python** with **Flask** to handle API requests and proxy data
@@ -45,7 +46,7 @@ The goal is to **bridge the gap between raw data and public action**, helping pe
 
 Our app stands out by merging **real-time air quality data** with **personalized health recommendations**. Unlike static dashboards, our platform actively:
 
-- ⚠️ **Notifies users of health risks** based on their current location and pollutant thresholds.  
+- ⚠️ **Notifies users of health risks** base on location entered or selected and pollutant thresholds. 
 - 📊 **Empowers individuals** — especially those with respiratory issues — to make safer, smarter choices.  
 
 ## ⚙️ Installation
