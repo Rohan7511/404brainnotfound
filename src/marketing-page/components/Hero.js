@@ -154,7 +154,7 @@ export default function Hero() {
     setAirQualityData(null);
     
     try {
-      const response = await axios.post('https://404brainnotfound.vercel.app/api/submit-city', { city });
+      const response = await axios.post('http://localhost:5000/submit-city', { city });
       console.log(response.data);
       setAirQualityData(response.data);
       if (response.data.lat && response.data.lon) {
@@ -172,7 +172,7 @@ export default function Hero() {
     setLoading(true);
     setError('');
     try {
-      const response = await axios.post('https://404brainnotfound.vercel.app/api/get-location-data', {
+      const response = await axios.post('http://localhost:5000/get-location-data', {
         lat: e.latlng.lat,
         lon: e.latlng.lng
       });
