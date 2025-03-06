@@ -48,7 +48,6 @@ const StyledBox = styled('div')(({ theme }) => ({
   }),
 }));
 
-// Fix for default marker icons in Leaflet
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
@@ -56,7 +55,6 @@ L.Icon.Default.mergeOptions({
   shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
 });
 
-// Map center component to handle automatic panning
 function MapCenter({ center }) {
   const map = useMap();
   React.useEffect(() => {
@@ -67,7 +65,6 @@ function MapCenter({ center }) {
   return null;
 }
 
-// Replace the StyledBox with this new component
 const MapBox = styled('div')(({ theme }) => ({
   width: '100%',
   height: 400,
@@ -117,7 +114,6 @@ const getAqiLevel = (aqi) => {
   return 'hazardous';
 };
 
-// Add this new component near your other map-related components
 function MapClickHandler({ onMapClick }) {
   const map = useMap();
   
