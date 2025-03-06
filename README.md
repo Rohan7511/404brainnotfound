@@ -9,9 +9,9 @@
 **Team Name:** 404 Brain Not Found
 
 - [@GubbaRohan](https://github.com/Rohan7511)
-- [MuthuRupesh](https://github.com/MR7star)
-- [SiddharthaReddy](https://github.com/saisidd07amrita)
-- [NikhilJonesA](https://github.com/Nikhil-Jones)  
+- [@MuthuRupesh](https://github.com/MR7star)
+- [@SiddharthaReddy](https://github.com/saisidd07amrita)
+- [@NikhilJonesA](https://github.com/Nikhil-Jones)  
 
 ## 🚨 Problem Statement
 
